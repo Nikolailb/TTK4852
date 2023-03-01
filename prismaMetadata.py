@@ -15,7 +15,7 @@ from itertools import chain
 # import gdal, osr
 
 #enter your filepath here
-filename=r"test.he5"
+filename=r"data/test.he5"
 
 #open he5 file
 f = h5py.File(filename,'r')
